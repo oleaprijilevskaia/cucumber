@@ -1,0 +1,559 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#   Scenario: Verify user can log in successfully with correct credentials"
+          },
+          {
+            "line": 4,
+            "value": "#"
+          },
+          {
+            "line": 5,
+            "value": "#    Given  Home page is displayed"
+          },
+          {
+            "line": 6,
+            "value": "#    When Clicks on My Account dropdown"
+          },
+          {
+            "line": 7,
+            "value": "#    And Clicks on Log in link"
+          },
+          {
+            "line": 8,
+            "value": "#    Then \u0027Log in\u0027 page is opened"
+          },
+          {
+            "line": 9,
+            "value": "#    When Enters valid Email Address and Password"
+          },
+          {
+            "line": 10,
+            "value": "#    And User presses [Login] button"
+          },
+          {
+            "line": 11,
+            "value": "#    Then \u0027My Account\u0027 page is opened"
+          },
+          {
+            "line": 12,
+            "value": "#"
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7448702200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "HomeSteps.Home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Verify user can log in successfully with correct credentials",
+        "description": "",
+        "id": "edit-customer-details;verify-user-can-log-in-successfully-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 495262800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "#    Then Home page is displayed"
+              }
+            ],
+            "line": 18,
+            "name": "User clicks on My Account dropdown",
+            "match": {
+              "location": "HomeSteps.Clicks_on_My_Account_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 463024200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Log in link",
+            "match": {
+              "location": "HomeSteps.Clicks_on_Log_in_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37189800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Log in page is opened",
+            "match": {
+              "location": "LogInSteps.logInPageIsOpened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 474439600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"sholmes@gmail.com\" and \"Holmes1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sholmes@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Holmes1234",
+                  "offset": 37
+                }
+              ],
+              "location": "LogInSteps.userEntersAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 479534700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User presses Login button",
+            "match": {
+              "location": "LogInSteps.userPressesLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7920100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "My Account page is opened",
+            "match": {
+              "location": "MyAccountSteps.myAccountPageIsOpened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 524799500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user logs out",
+            "match": {
+              "location": "LogOutSteps.logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1080565200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on Continue button",
+            "match": {
+              "location": "LogOutSteps.clicksOnContinueButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#   Scenario: Verify user can log in successfully with correct credentials"
+          },
+          {
+            "line": 4,
+            "value": "#"
+          },
+          {
+            "line": 5,
+            "value": "#    Given  Home page is displayed"
+          },
+          {
+            "line": 6,
+            "value": "#    When Clicks on My Account dropdown"
+          },
+          {
+            "line": 7,
+            "value": "#    And Clicks on Log in link"
+          },
+          {
+            "line": 8,
+            "value": "#    Then \u0027Log in\u0027 page is opened"
+          },
+          {
+            "line": 9,
+            "value": "#    When Enters valid Email Address and Password"
+          },
+          {
+            "line": 10,
+            "value": "#    And User presses [Login] button"
+          },
+          {
+            "line": 11,
+            "value": "#    Then \u0027My Account\u0027 page is opened"
+          },
+          {
+            "line": 12,
+            "value": "#"
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 82980800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "HomeSteps.Home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Verify Log In with incorrect credentials",
+        "description": "",
+        "id": "edit-customer-details;verify-log-in-with-incorrect-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 147178700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on My Account dropdown",
+            "match": {
+              "location": "HomeSteps.Clicks_on_My_Account_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716504600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on Log in link",
+            "match": {
+              "location": "HomeSteps.Clicks_on_Log_in_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11430400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Log in page is opened",
+            "match": {
+              "location": "LogInSteps.logInPageIsOpened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 393503300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enters  test@mail.ru and qazx12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@mail.ru",
+                  "offset": 8
+                },
+                {
+                  "val": "qazx12",
+                  "offset": 25
+                }
+              ],
+              "location": "LogInSteps.entersEmail_addressAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 401704400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User presses Login button",
+            "match": {
+              "location": "LogInSteps.userPressesLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124769000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "A warning validation message \"Warning: No match for E-Mail Address and/or Password.\" or \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\"is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warning: No match for E-Mail Address and/or Password.",
+                  "offset": 30
+                },
+                {
+                  "val": "Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.",
+                  "offset": 89
+                }
+              ],
+              "location": "LogInSteps.aWarningValidationMessageOrIsDisplayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 783860100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on Home link",
+            "match": {
+              "location": "LogInSteps.userClicksOnHomeLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#   Scenario: Verify user can log in successfully with correct credentials"
+          },
+          {
+            "line": 4,
+            "value": "#"
+          },
+          {
+            "line": 5,
+            "value": "#    Given  Home page is displayed"
+          },
+          {
+            "line": 6,
+            "value": "#    When Clicks on My Account dropdown"
+          },
+          {
+            "line": 7,
+            "value": "#    And Clicks on Log in link"
+          },
+          {
+            "line": 8,
+            "value": "#    Then \u0027Log in\u0027 page is opened"
+          },
+          {
+            "line": 9,
+            "value": "#    When Enters valid Email Address and Password"
+          },
+          {
+            "line": 10,
+            "value": "#    And User presses [Login] button"
+          },
+          {
+            "line": 11,
+            "value": "#    Then \u0027My Account\u0027 page is opened"
+          },
+          {
+            "line": 12,
+            "value": "#"
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 86084600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "HomeSteps.Home_page_is_displayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Verify Log In with incorrect credentials",
+        "description": "",
+        "id": "edit-customer-details;verify-log-in-with-incorrect-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 197571200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on My Account dropdown",
+            "match": {
+              "location": "HomeSteps.Clicks_on_My_Account_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 708202200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on Log in link",
+            "match": {
+              "location": "HomeSteps.Clicks_on_Log_in_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12572600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Log in page is opened",
+            "match": {
+              "location": "LogInSteps.logInPageIsOpened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 394043400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enters  test@test.com and wes1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.com",
+                  "offset": 8
+                },
+                {
+                  "val": "wes1",
+                  "offset": 26
+                }
+              ],
+              "location": "LogInSteps.entersEmail_addressAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 912712300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User presses Login button",
+            "match": {
+              "location": "LogInSteps.userPressesLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132574400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "A warning validation message \"Warning: No match for E-Mail Address and/or Password.\" or \"Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\"is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Warning: No match for E-Mail Address and/or Password.",
+                  "offset": 30
+                },
+                {
+                  "val": "Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.",
+                  "offset": 89
+                }
+              ],
+              "location": "LogInSteps.aWarningValidationMessageOrIsDisplayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 819567800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on Home link",
+            "match": {
+              "location": "LogInSteps.userClicksOnHomeLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Edit Customer details",
+    "description": "",
+    "id": "edit-customer-details",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
